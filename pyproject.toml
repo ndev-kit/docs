@@ -1,0 +1,58 @@
+[project]
+name = "docs"
+dynamic = ["version"]
+description = "Documentation site for ndev kit"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Tim Monko"},
+  {email = "timmonko@gmail.com"},
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+requires-python = ">=3.10"
+
+dependencies = [
+    "mkdocs",
+    "mkdocs-autorefs",
+    "mkdocs-material",
+    "mkdocstrings",
+    "mkdocstrings-python",
+    "mkdocs-jupyter",
+    "mkdocs-pdf",
+    "mkdocs-spellcheck[all]",
+    "mkdocs-literate-nav",
+    "mkdocs-table-reader-plugin",
+    "mkdocs-multirepo-plugin",  # For fetching docs from multiple repos
+    "mkdocs-spellcheck",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+]
+
+[project.urls]
+"Bug Tracker" = "https://github.com/ndev-kit/docs/issues"
+"Documentation" = "https://github.com/ndev-kit/docs#README.md"
+"Source Code" = "https://github.com/ndev-kit/docs"
+"User Support" = "https://github.com/ndev-kit/docs/issues"
+
+[build-system]
+requires = ["setuptools>=42.0.0", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []
