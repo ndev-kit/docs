@@ -1,14 +1,14 @@
-site_name: napari-ndev
-site_url: https://TimMonko.github.io/napari-ndev/
-site_description: Napari widgets to process microscopy images
-repo_name: timmonko/napari-ndev
-repo_url: https://github.com/timmonko/napari-ndev
-copyright: Copyright &copy; 2023-2025 Tim Monko
+site_name: nDev Documentation
+site_url: https://ndev-kit.github.io/docs/
+site_description: Documentation for nDev ecosystem tools and packages
+repo_name: ndev-kit/docs
+repo_url: https://github.com/ndev-kit/docs
+copyright: Copyright &copy; 2023-2025 Tim Monko & nDev Kit Contributors
 
 theme:
   name: material
-  favicon: resources/images/nDev-icon.svg
-  logo: resources/images/nDev-icon.svg
+  favicon: docs/resources/images/nDev-icon.svg
+  logo: docs/resources/images/nDev-icon.svg
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -76,7 +76,7 @@ nav:
     - nImage: api/nimage.md
 
 watch:
-  - src
+  - docs
 
 markdown_extensions:
   - tables
