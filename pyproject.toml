@@ -36,7 +36,6 @@ dependencies = [
     "mkdocs-literate-nav",
     "mkdocs-table-reader-plugin",
     "mkdocs-multirepo-plugin",  # For fetching docs from multiple repos
-    "mkdocs-spellcheck",
 ]
 
 [project.optional-dependencies]
