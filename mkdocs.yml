@@ -36,7 +36,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/timmonko/napari-ndev
+      link: https://github.com/ndev-kit/napari-ndev
       name: napari-ndev on GitHub
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/napari-ndev
