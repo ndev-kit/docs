@@ -7,8 +7,8 @@ copyright: Copyright &copy; 2023-2025 Tim Monko & nDev Kit Contributors
 
 theme:
   name: material
-  favicon: docs/resources/images/nDev-icon.svg
-  logo: docs/resources/images/nDev-icon.svg
+  favicon: resources/images/nDev-icon.svg
+  logo: resources/images/nDev-icon.svg
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -60,20 +60,20 @@ nav:
       - workflow widget: examples/workflow/workflow_widget.ipynb
       - script workflow: examples/workflow/workflow_scripting.ipynb
     - Measure Widget: examples/measure/measure_widget.ipynb
-  - API:
-    - Widgets:
-      - api/widgets/image_utilities.md
-      - api/widgets/workflow_widget.md
-      - api/widgets/apoc_widget.md
-      - api/widgets/custom_apoc_feature_set.md
-      - api/widgets/measure_widget.md
-      - api/widgets/napari_reader.md
-    - Image Overview: api/image_overview.md
-    - PlateMapper: api/plate_mapper.md
-    - Measure: api/measure.md
-    - Morphology: api/morphology.md
-    - Helpers: api/helpers.md
-    - nImage: api/nimage.md
+  # - API:
+  #   - Widgets:
+  #     - api/widgets/image_utilities.md
+  #     - api/widgets/workflow_widget.md
+  #     - api/widgets/apoc_widget.md
+  #     - api/widgets/custom_apoc_feature_set.md
+  #     - api/widgets/measure_widget.md
+  #     - api/widgets/napari_reader.md
+  #   - Image Overview: api/image_overview.md
+  #   - PlateMapper: api/plate_mapper.md
+  #   - Measure: api/measure.md
+  #   - Morphology: api/morphology.md
+  #   - Helpers: api/helpers.md
+  #   - nImage: api/nimage.md
 
 watch:
   - docs
