@@ -5,9 +5,6 @@ repo_name: ndev-kit/docs
 repo_url: https://github.com/ndev-kit/docs
 copyright: Copyright &copy; 2023-2025 Tim Monko & nDev Kit Contributors
 
-# Explicitly set the docs directory
-docs_dir: docs
-
 theme:
   name: material
   favicon: resources/images/nDev-icon.svg
