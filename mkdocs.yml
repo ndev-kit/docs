@@ -36,43 +36,30 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ndev-kit/napari-ndev
+      link: https://github.com/timmonko/napari-ndev
       name: napari-ndev on GitHub
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/napari-ndev
       name: napari-ndev on PyPI
 
 nav:
-  - Home: index.md
-  - Packages:
-    - napari-ndev:
-      - Overview: napari-ndev/index.md
-      - Installation: installation.md
-      - Beginner Setup: beginner_setup.md
-      - Further Widget Info: widget_further_info.md
-      - Poster: BINA_poster.md
-      - I2K Workshop:
-        - 1) Tutorial Setup: tutorial/00_setup.md
-        - 2) Example Pipeline: tutorial/01_example_pipeline.md
-        - 3) Easy Machine Learning: tutorial/02_easy_ML.md
-        - 4) Build Your Own Pipeline: tutorial/03_build_pipeline.md
-      - Examples:
-        - Image Utilities: examples/utilities/image_utilities.ipynb
-        - Workflow:
-          - napari workflow: examples/workflow/workflow_napari-assistant.ipynb
-          - workflow widget: examples/workflow/workflow_widget.ipynb
-          - script workflow: examples/workflow/workflow_scripting.ipynb
-        - Measure Widget: examples/measure/measure_widget.ipynb
-    # - ndevio:
-    #   - Overview: ndevio/index.md
-    #   - API Reference: ndevio/api.md
-    # - ndev-sampledata:
-    #   - Overview: ndev-sampledata/index.md
-    #   - Sample Datasets: ndev-sampledata/datasets.md
-  - Community:
-    - Contributing: contributing.md
-    - Code of Conduct: code-of-conduct.md
-    - Support: support.md
+  - Overview: index.md
+  - Installation: installation.md
+  - Beginner Setup: beginner_setup.md
+  - Further Widget Info: widget_further_info.md
+  - Poster: BINA_poster.md
+  - I2K Workshop:
+    - 1) Tutorial Setup: tutorial/00_setup.md
+    - 2) Example Pipeline: tutorial/01_example_pipeline.md
+    - 3) Easy Machine Learning: tutorial/02_easy_ML.md
+    - 4) Build Your Own Pipeline: tutorial/03_build_pipeline.md
+  - Examples:
+    - Image Utilities: examples/utilities/image_utilities.ipynb
+    - Workflow:
+      - napari workflow: examples/workflow/workflow_napari-assistant.ipynb
+      - workflow widget: examples/workflow/workflow_widget.ipynb
+      - script workflow: examples/workflow/workflow_scripting.ipynb
+    - Measure Widget: examples/measure/measure_widget.ipynb
   # - API:
   #   - Widgets:
   #     - api/widgets/image_utilities.md
