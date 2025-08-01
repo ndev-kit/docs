@@ -38,7 +38,7 @@ dependencies = [
     "mkdocs-multirepo-plugin",  # For fetching docs from multiple repos
 ]
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = [
     "pre-commit",
 ]
