@@ -38,7 +38,7 @@ dependencies = [
     "mkdocs-multirepo-plugin",  # For fetching docs from multiple repos
 ]
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = [
     "pre-commit",
 ]
@@ -48,10 +48,3 @@ dev = [
 "Documentation" = "https://github.com/ndev-kit/docs#README.md"
 "Source Code" = "https://github.com/ndev-kit/docs"
 "User Support" = "https://github.com/ndev-kit/docs/issues"
-
-[build-system]
-requires = ["setuptools>=42.0.0", "setuptools_scm"]
-build-backend = "setuptools.build_meta"
-
-[tool.setuptools]
-py-modules = []
