@@ -48,10 +48,3 @@ dev = [
 "Documentation" = "https://github.com/ndev-kit/docs#README.md"
 "Source Code" = "https://github.com/ndev-kit/docs"
 "User Support" = "https://github.com/ndev-kit/docs/issues"
-
-[build-system]
-requires = ["hatchling", "hatch-vcs"]
-build-backend = "hatchling.build"
-
-[tool.hatch.version]
-source = "vcs"
