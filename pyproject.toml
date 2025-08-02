@@ -44,7 +44,7 @@ dev = [
 ]
 
 [project.urls]
-"Bug Tracker" = "https://github.com/ndev-kit/docs/issues"
-"Documentation" = "https://github.com/ndev-kit/docs#README.md"
-"Source Code" = "https://github.com/ndev-kit/docs"
-"User Support" = "https://github.com/ndev-kit/docs/issues"
+"Bug Tracker" = "https://github.com/ndev-kit/ndev-kit.github.io/issues"
+"Documentation" = "https://github.com/ndev-kit/ndev-kit.github.io#README.md"
+"Source Code" = "https://github.com/ndev-kit/ndev-kit.github.io"
+"User Support" = "https://github.com/ndev-kit/ndev-kit.github.io/issues"
